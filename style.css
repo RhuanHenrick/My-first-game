@@ -1,9 +1,9 @@
 :root {
-    --green: #5ed68a;
-    --red: #1ea6c8;
-    --background: #fafafa;
-    --gradient-1: #2a2a2a;
-    --gradient-2: #2a3352;
+    --blue: #fbfaff;
+    --blue2: #070707;
+    --background: #000000;
+    --gradient-1: #0363ff;
+    --gradient-2: #010101;
     }
     
     html {
@@ -14,19 +14,19 @@
     body {
     width: 90vw;
     margin: 0 auto;
-    background: radial-gradient(var(--gradient1), var(--gradient2));
+    background: radial-gradient(var(--gradient-1), var(--gradient-2));
     padding: 4rem;
     }
     
     main {
     text-align: center;
     background: var(--background);
-    border: solid var(--red);
+    border: solid var(--blue);
     border-width: 8px 8px 8px 8px;
     min-height: 40vh;
     border-radius: 2rem 2rem 2rem 2rem;
     padding: 4rem;
-    color: #1f2933;
+    color: #ffffff;
     }
     
     h2 {
@@ -46,14 +46,14 @@
     button {
     border: none;
     cursor: pointer;
-    background: var(--green);
+    background: var(--blue);
     padding: 2rem 6rem;
     border-radius: 1rem 1rem 0 0;
     font-size: 1.4rem;
     }
     
     button:last-child {
-    background: var(--red);
+    background: var(--blue);
     border-radius: 0 0 1rem 1rem;
     }
     
@@ -71,6 +71,7 @@
     width: 25rem;
     text-align: center;
     font-size: 2rem;
+    color: white;
     }
     
     .stats {
